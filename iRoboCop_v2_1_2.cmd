@@ -194,12 +194,13 @@ goto BROWSELOGYN
 echo.
 SET /P DEST=And where am I putting them?:
 echo.
-echo Logs are important, please tell me where they should go
-echo Make sure there are no spaces in the log folder.  things get weird... thanks
 echo.
 goto BROWSELOGYN
 
 :BROWSELOGYN
+echo.
+echo Logs are important, please tell me where they should go
+echo Make sure there are no spaces in the log folder.  things get weird... thanks
 echo.
 set /P BROWSELOG=Do you want to Browse to find Log folder? [Y/N]:
 if /I "%BROWSELOG%" EQU "Y" goto BROWSELOGY
