@@ -195,6 +195,7 @@ echo.
 SET /P DEST=And where am I putting them?:
 echo.
 echo Logs are important, please tell me where they should go
+echo Make sure there are no spaces in the log folder.  things get weird... thanks
 echo.
 goto BROWSELOGYN
 
